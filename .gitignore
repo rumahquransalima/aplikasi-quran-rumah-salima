@@ -1,0 +1,23 @@
+# Flutter / Dart
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Catatan: aturan khusus platform (Android/local.properties, key.properties,
+# *.jks, iOS/macOS Pods & ephemeral, Linux/Windows ephemeral) sudah ditangani
+# oleh .gitignore di masing-masing folder platform.
+
+# Kredensial lokal (JANGAN pernah di-commit)
+env.json
+.env
+.env.*
+
+# Berkas OS / log
+*.log
+.DS_Store
